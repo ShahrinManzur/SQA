@@ -1,0 +1,191 @@
+{
+  "id": "2901e44a-6d06-48ef-adac-6448f5109bc4",
+  "version": "2.0",
+  "name": "Bongo",
+  "url": "https://www.bongobd.com/",
+  "tests": [{
+    "id": "23daf8e4-21c5-471f-97fd-72062640100c",
+    "name": "login",
+    "commands": [{
+      "id": "2da92e73-9ec6-447f-8c2a-211f2161ff67",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bongobd.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3e314a5-48d2-48e4-8549-a1ec07a4c29c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1203x799",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20e8c438-729a-4210-baa2-de837faf3cfe",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[1]/div/div/div[1]/header/div[2]/div/div[2]/div[2]/div[2]/button[1]/span[1]",
+      "targets": [
+        ["css=.jss138:nth-child(1) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/header/div[2]/div/div[2]/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83fc9b7a-33fd-45f5-b023-87ffc251eda9",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.MuiSelect-root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ec5e8ac-1c8b-4de9-9de9-25dab6d9f602",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=li.MuiButtonBase-root:nth-child(18)",
+      "targets": [
+        ["css=.MuiMenuItem-root:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='menu-']/div[3]/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'AmericanSamoa +1 684')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ba43d0c-09ed-4979-92c9-20d43dbcd7c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d68a9ae-3c28-47a6-b9b2-4752fd908a0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Mui-selected",
+      "targets": [
+        ["css=.Mui-selected", "css:finder"],
+        ["xpath=//div[@id='menu-']/div[3]/ul/li[18]", "xpath:idRelative"],
+        ["xpath=//li[18]", "xpath:position"],
+        ["xpath=//li[contains(.,'Bangladesh +880')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e21e62c-69a1-444a-b8e0-9903f9af8af1",
+      "comment": "",
+      "command": "click",
+      "target": "id=phoneNumberInput",
+      "targets": [
+        ["id=phoneNumberInput", "id"],
+        ["css=#phoneNumberInput", "css:finder"],
+        ["xpath=//input[@id='phoneNumberInput']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "057cd552-37d9-4da6-b534-f50967c0c8e4",
+      "comment": "",
+      "command": "type",
+      "target": "id=phoneNumberInput",
+      "targets": [
+        ["id=phoneNumberInput", "id"],
+        ["css=#phoneNumberInput", "css:finder"],
+        ["xpath=//input[@id='phoneNumberInput']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53722591-3a3b-4728-a059-fc694addb7c7",
+      "comment": "enter # in the field.",
+      "command": "pause",
+      "target": "15000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a22e207-c3f9-4c53-bd8b-6776eff26cf3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[1]/div/div/div[2]/div/div/div/div[2]/button/span[1]/span",
+      "targets": [
+        ["css=.jss563", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'GET OTP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76420216-9f3d-4965-add4-9444788f904d",
+      "comment": "",
+      "command": "click",
+      "target": "id=codeInput",
+      "targets": [
+        ["id=codeInput", "id"],
+        ["css=#codeInput", "css:finder"],
+        ["xpath=//input[@id='codeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ae45bd8-03ef-4df2-9a0d-d28cb698faf8",
+      "comment": "Wait for OTP",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6da1980f-37d5-482f-bbd8-a3c91b6b6374",
+      "comment": "",
+      "command": "type",
+      "target": "id=codeInput",
+      "targets": [
+        ["id=codeInput", "id"],
+        ["css=#codeInput", "css:finder"],
+        ["xpath=//input[@id='codeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07356aae-184c-4f43-a9cc-29cb55665093",
+      "comment": "enter OTP in the field",
+      "command": "pause",
+      "target": "15000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07dc5021-5a03-4b9f-9669-fe26949f1391",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[1]/div/div/div[2]/div/div/div/div[2]/button[1]/span[1]/span",
+      "targets": [
+        ["css=.jss769", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/div/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c4515a7-133d-4cc4-ba19-199da4378e6e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/div[1]/div/div/div[1]/header/div[2]/div/div[2]/div[2]/div[2]/button[1]/span[1]",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ef58ce62-a2dd-490c-b31a-f096a3539b27",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["23daf8e4-21c5-471f-97fd-72062640100c"]
+  }],
+  "urls": ["https://www.bongobd.com/"],
+  "plugins": []
+}
